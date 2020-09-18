@@ -29,7 +29,7 @@ class MainContent extends React.Component {
         })
     }
     componentDidMount() {
-        fetch("http://api.openweathermap.org/data/2.5/weather?q=London&units=imperial&appid=ea6d4788c2440f3f6ddce67043b19eb3")
+        fetch("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=London&units=imperial&appid=ea6d4788c2440f3f6ddce67043b19eb3")
             .then(res => res.json())
             .then(data => {
                 console.log(data);
@@ -42,7 +42,7 @@ class MainContent extends React.Component {
             );
     }
     getWeather(e) {
-        fetch("https://api.openweathermap.org/data/2.5/weather?q="+ this.state.input +"&units=imperial&appid=ea6d4788c2440f3f6ddce67043b19eb3")
+        fetch("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q="+ this.state.input +"&units=imperial&appid=ea6d4788c2440f3f6ddce67043b19eb3")
             .then(res => res.json())
             .then(data => {
                 console.log(data);
