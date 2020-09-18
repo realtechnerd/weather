@@ -1,0 +1,214 @@
+@import url(https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@import url(https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css);
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  font-family: Oxygen !important;
+}
+
+.b {
+  font-family: Oxygen !important;
+}
+
+.Header {
+  background: -webkit-gradient(linear, right top, left top, from(#89f7fe), to(#66a6ff));
+  background: linear-gradient(to left, #89f7fe, #66a6ff);
+  padding: 5px;
+  color: #fff;
+  font-family: Oxygen;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.Header h1 {
+  display: inline-block;
+  padding: 5px;
+}
+
+.Header a {
+  display: inline-block;
+  padding: 5px;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.MainContent {
+  padding: 10px;
+  font-family: Oxygen;
+}
+
+.Weather {
+  text-align: center;
+}
+
+#weatherInput {
+  padding: 10px;
+  font-family: Inter !important;
+  outline: none !important;
+  border-radius: 3rem;
+  font-size: 15pt;
+  border: none;
+  background-color: #d3d3d3;
+  width: 75%;
+}
+
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .Header h1 {
+    padding: 5px;
+  }
+  .Header a {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    color: #333 !important;
+  }
+  .Header {
+    font-size: 12pt;
+    text-align: center;
+    color: #333;
+  }
+  #weatherInput {
+    width: 95%;
+  }
+  .DispWeather {
+    font-size: 30pt !important;
+    text-align: left;
+  }
+  .smallContainer {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .lgbprimary {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15pt;
+  }
+  #ver {
+    font-size: 20pt;
+  }
+}
+
+#msg {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #fff !important;
+}
+
+#alert {
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+  color: #fff !important;
+}
+
+.smallContainer {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.DispWeather {
+  padding: 30px;
+  border-radius: 1rem;
+  background-color: #e1e1e1;
+  font-size: 30pt;
+  color: #333;
+}
+
+#emoji {
+  font-family: Oxygen !important;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#temp {
+  font-family: Oxygen !important;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#89f7fe), to(#66a6ff));
+  background: linear-gradient(#89f7fe, #66a6ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.DispWeather h5 {
+  font-family: Oxygen !important;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.DispWeather h6 {
+  font-family: Oxygen !important;
+  padding: 0px;
+  margin-top: 8px !important;
+  margin-bottom: 0px !important;
+}
+
+.DispWeather h4 {
+  font-family: Oxygen !important;
+  padding: 0px !important;
+  margin-top: 8px !important;
+  margin-bottom: 0px !important;
+}
+
+.lgbprimary {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 15pt;
+}
+
+#img {
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+
+.sub {
+  margin-top: 0px;
+  font-size: 15pt;
+  margin-bottom: 5px;
+}
+
+.dmode {
+  -webkit-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+.dmodeb {
+  -webkit-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+  background-color: #000;
+}
+
+.dmodes {
+  -webkit-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+  background-color: #ddd;
+  color: #f1f1f1;
+}
+
+#ver {
+  padding: 15px;
+}
+/*# sourceMappingURL=style.css.map */
