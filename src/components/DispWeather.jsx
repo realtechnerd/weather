@@ -10,7 +10,7 @@ function DispWeather(props) {
                 <h1 id="temp">{props.main}&#730;</h1>
                 <h5>{props.name}, {props.country}.</h5>
             </div>
-            <h1 id="ver">version 0.0.1 - more updates to come :)</h1>
+            <h3 id="ver">version 0.0.1 - more updates to come :)</h3>
         </div>
     )
 }
