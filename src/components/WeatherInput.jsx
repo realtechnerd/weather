@@ -19,6 +19,8 @@ class WeatherInput extends Component {
                             />
                             <br/>
                         </form>
+                        <br/>
+                        <button id="btn" className="lgbprimary" onClick={this.props.locationWeather}>Use my location</button>
                     </div>
                 </div>
             </div>
